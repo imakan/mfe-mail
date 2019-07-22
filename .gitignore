@@ -1,8 +1,4 @@
 .DS_Store
 .vscode
 node_modules/
-index.ts
-config.ts
-tsconfig.json
-typings/*
 dist
