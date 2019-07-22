@@ -1,0 +1,23 @@
+{
+  "name": "mfe-mail",
+  "version": "1.0.11",
+  "description": "auto send mail ",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc && mkdir -p dist && cp -r typings ./dist/",
+    "prepublishOnly": "yarn run compile"
+  },
+  "author": "imakan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ioredis": "^4.0.12",
+    "@types/node": "^12.0.8",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "ioredis": "^4.10.0"
+  }
+}
